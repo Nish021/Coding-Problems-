@@ -1,5 +1,7 @@
 https://leetcode.com/problems/binary-search/
-
+time : o(log n)
+space: o(1)
+    
 class Solution {
     public int search(int[] nums, int target) {
         //start point
