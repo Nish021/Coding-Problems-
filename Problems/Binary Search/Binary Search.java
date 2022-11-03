@@ -10,7 +10,8 @@ class Solution {
         
         while(start <= end){
             
-            int mid = (start + end)/2;
+             //if value is large then yeh help krega int ko overflow hone se 
+            int mid = start + (end - start)/2 ;  
             
             //agar target small hai toh end mid -1 hoga
             if(nums[mid] > target){
